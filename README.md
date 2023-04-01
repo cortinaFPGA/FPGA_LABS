@@ -1,5 +1,5 @@
 # FPGA Projects/Labs by Luis Cortina
-Except for the CORDIC design, each of these was designed and implemented by first verifying correctness through behavioral simulation and then were loaded onto an FPGA where a testing program was ran to verify the design on-board an FPGA.
+For most of these labs, they were designed and implemented by first verifying correctness through behavioral simulation and then were loaded onto an FPGA where a testing program was ran to verify the design on-board an FPGA.
 
 FPGA used: Zybo Z7-10 Development Board (Xilinx Zynq-7000 family)
 <br />
