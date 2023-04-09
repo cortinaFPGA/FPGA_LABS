@@ -34,15 +34,21 @@ there are 5 codes of length 4. There are 256 data elements at the input port huf
 consisting of 8 bits. The nth 8-bit data represents the decoded data of the nth Huffman code.
 
 huffmandecode.v satisfies the following:
+
 a) When rst is 0, finish is set to 0.
+
 b) When rst is 1, the module starts calculating.
+
 c) The decode data is finally placed at the output port data. The length that decoded this data is put
 at output port length.
+
 d) When the data and length are ready, finish is set to 1, and data, length and finish hold their values.
 
 ## Inverse Zigzag Transform
 
-The zigzag transform is described by the image below.
+The zigzag transform is described by the following image:
+<br />
+![test](images/zigzag.PNG)
 
 For the original 8*8 block, each number in the image above represents the position in the zigzag block
 (the position is counted from the left to the right of each row, and from the upmost row to the bottom
@@ -55,8 +61,12 @@ In “izigzag.v”, there are 64 data elements at the input port zigzag, with ea
 bits. The first data is put at the lowest 32 bits of zigzag, and the last data is put at the highest 32 bits.
 
 izigzag.v satisfies the following:
+
 a) When rst is 0, finish is set to 0.
+
 b) When rst is 1, the module starts calculating.
+
 c) The rearranged data is finally put at the output port outdata. The first data is put at the lowest 32
 bits of outdata, and the last data is assigned to the highest 32 bits.
+
 d) When the outdata is ready, finish is set to 1, and both outdata and finish hold their values.
