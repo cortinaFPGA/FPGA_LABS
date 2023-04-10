@@ -35,6 +35,7 @@ Multiplication module that multiplies two 8-bit signed fixed-point numbers with 
 This is my unfolded IIR filter design testbench.
 
 The input to the design are:
+
 a = 8
 
 b = -24
