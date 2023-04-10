@@ -5,4 +5,4 @@ FPGA used: Zybo Z7-10 Development Board (Xilinx Zynq-7000 family)
 <br />
 Development tool: Vivado 2018.3
 ## Note
-Please excuse missing READMEs and code without comments. I am continuously fixing this when I have time.
+Please excuse missing READMEs and code without comments. I am continuously updating.
