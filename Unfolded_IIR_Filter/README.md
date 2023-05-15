@@ -1,5 +1,19 @@
 # Unfolded IIR Filter
 
+### Credit
+
+### My Work
+IIR_unfold.v	
+
+### Provided To Me
+IIR_unfold_tb.v	<br />
+top_IIR_unfold.v <br />
+multiply.v <br />
+lab3_IIR_unfold_test <br />
+ref_IIR.py <br />
+
+
+
 ## Infinite Impulse Response (IIR) Filter
 The Infinite Impulse Response (IIR) filter is a discrete-time filter and a class of digital filters. Filters are mainly used to alter the frequency component of the time signals by either reducing or amplifying the magnitude of certain frequencies.
 The output of IIR filters is based on both past inputs and previous outputs. The IIR is recursive in nature, as its filters use part of the outputs as inputs. Consequently, IIR is not always computationally stable.
