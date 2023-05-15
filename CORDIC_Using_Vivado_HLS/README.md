@@ -5,7 +5,7 @@ A CORDIC algorithm implementation using Vivado HLS that can calculate ATAN or CO
 basic_cordic.cpp
 
 ### Provided To Me
-basic_cordic.h
+basic_cordic.h <br />
 basic_cordic_tb.cpp
 
 ## Description
