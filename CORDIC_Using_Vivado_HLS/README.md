@@ -1,8 +1,12 @@
 # CORDIC Using Vivado HLS
 A CORDIC algorithm implementation using Vivado HLS that can calculate ATAN or COS/SIN.
 
-### test
-test
+### My Work
+basic_cordic.cpp
+
+### Provided To Me
+basic_cordic.h
+basic_cordic_tb.cpp
 
 ## Description
 CORDIC is an acronym for Coordinate Rotation Digital Computer introduced by Volder in 1959. This iterative technique computes multiplicative and similar functions by shift and add operations. It is commonly used in FPGAs where no hardware multiplier is present.
