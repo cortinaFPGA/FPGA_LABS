@@ -4,7 +4,7 @@ A CORDIC algorithm implementation using Vivado HLS that can calculate ATAN or CO
 CORDIC is an acronym for Coordinate Rotation Digital Computer introduced by Volder in 1959. This iterative technique computes multiplicative and similar functions by shift and add operations. It is commonly used in FPGAs where no hardware multiplier is present.
 To calculate cos and sin using CORDIC, we can use the following equations:
 
-$$\mathrm{x}_{k+1} = \mathrm{x}_{k} − \mathrm{d}_{k} 2^{−k}\mathrm{y}_{k}$$
+$$\mathrm{x}{k+1} = \mathrm{x}{k} − \mathrm{d}{k} 2^{−k} \mathrm{y}{k}$$
 
 $$\mathrm{y}_{k+1} = \mathrm{y}_{k} + \mathrm{d}_{k} 2^{−k} \mathrm{x}_{k}$$
 
