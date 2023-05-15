@@ -4,9 +4,9 @@ A CORDIC algorithm implementation using Vivado HLS that can calculate ATAN or CO
 CORDIC is an acronym for Coordinate Rotation Digital Computer introduced by Volder in 1959. This iterative technique computes multiplicative and similar functions by shift and add operations. It is commonly used in FPGAs where no hardware multiplier is present.
 To calculate cos and sin using CORDIC, we can use the following equations:
 
-$$\mathrm{x}_{k+1} = \mathrm{x}_{k} − \mathrm{d}_{k} 2^{−k} \mathrm{y}_{k}$$
+$$\mathrm{x_{k+1}} = \mathrm{x_{k}} − \mathrm{d_{k}} 2^{−k} \mathrm{y_{k}}$$
 
-$$\mathrm{y}_{k+1} = \mathrm{y}_{k} + \mathrm{d}_{k} 2^{−k} \mathrm{x}_{k}$$
+$$\mathrm{y_{k+1}} = \mathrm{y_{k}} + \mathrm{d_{k}} 2^{−k} \mathrm{x_{k}}$$
 
 $$\mathrm{z_{k+1}} = \mathrm{z_{k}} − \mathrm{d_{k}} tan^{−1} (2^{-k})$$
 
@@ -32,7 +32,7 @@ $\text{If we choose } x_{0} \text{ and } y_{0} \text{ properly, we can infer the
 
 Similarly, to calculate atan using CORDIC, we can use the following equations:
 
-$$x_{k} = G \sqrt{\mathrm{x}_{0}^{2} + \mathrm{y}_{0}^{2}}$$
+$$x_{k} = G \sqrt{\mathrm{x_{0}}^{2} + \mathrm{y_{0}}^{2}}$$
 
 $$y_{k} = 0$$
 
