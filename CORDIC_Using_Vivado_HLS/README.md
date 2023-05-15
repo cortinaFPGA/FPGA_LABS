@@ -8,7 +8,7 @@ $$\mathrm{x}_{k+1}^{}= \mathrm{x}_{k}^{}− \mathrm{d}_{k}^{}2^{−k}\mathrm{y}_
 
 $$\mathrm{y}_{k+1}^{}= \mathrm{y}_{k}^{}+ \mathrm{d}_{k}^{}2^{−k}\mathrm{x}_{k}^{}$$
 
-$$\mathrm{z}_{k+1}^{}= \mathrm{z}_{k}^{}− \mathrm{d}_{k}^{}tan^{−1}(2^{-k})$$
+$$\mathrm{z}_{k+1} = \mathrm{z}_{k} − \mathrm{d}_{k} tan^{−1} (2^{-k})$$
 
 $$\text{where }d_{k} = sign(z_{k}) = \begin{Bmatrix}
 -1 &  \text{if } z_{k} \lt 0\\
